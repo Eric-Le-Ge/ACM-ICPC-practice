@@ -6,7 +6,6 @@ items = []
 anti_item = {}
 a, b = [], []
 
-
 for i in range(n):
     items.append(sys.stdin.readline()[:-1])
     anti_item[items[i]] = i
@@ -75,5 +74,4 @@ def solve():
     for item in b:
         print(item, end=" ")
     print()
-
 solve()
